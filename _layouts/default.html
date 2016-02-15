@@ -1,20 +1,26 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
   {% include head.html %}
-
   <body>
 
-    {% include header.html %}
+  <div class="site-wrapper">
 
-    <div class="page-content">
-      <div class="wrapper">
+    <div class="site-wrapper-inner">
+
+      <div class="cover-container">
+
+        <div class="masthead clearfix">
+          {% include header.html %}
+        </div>
+
         {{ content }}
+
       </div>
+
     </div>
 
-    {% include footer.html %}
+  </div>
+  {% include footer.html %}
 
   </body>
-
 </html>
