@@ -1,42 +1,33 @@
-<div>
-    <div class="col-md-4">
-        <div class="row">
-            <div class="col-md-4"> </div> <!-- this column empty -->
-            <div class="col-md-4">
-                <p>Mon</p>
-                {% include day-events.html events=site.data.schedules.Kaunas.Monday.events %}
-            </div>
-            <div class="col-md-4">
-                <p>Tue</p>
-                {% include day-events.html events=site.data.schedules.Kaunas.Tuesday.events %}
-            </div>
-        </div>
+<div class="row">
+    <div class="col-lg-4 col-md-6">
+        <p>Monday</p>
+        {% include day-events.html events=site.data.schedules.Kaunas.Monday.events %}
+    </div>
+    <div class="col-lg-4 col-md-6">
+        <p>Tuesday</p>
+        {% include day-events.html events=site.data.schedules.Kaunas.Tuesday.events %}
+    </div>
+    <div class="col-lg-4 col-md-6">
+        <p>Wednesday</p>
+        {% include day-events.html events=site.data.schedules.Kaunas.Wednesday.events %}
+    </div>
+    <div class="col-lg-4 col-md-6">
+        <p>Thursday</p>
+        {% include day-events.html events=site.data.schedules.Kaunas.Thursday.events %}
+    </div>
+    <div class="col-lg-4 col-md-6">
+        <p>Friday</p>
+        {% include day-events.html events=site.data.schedules.Kaunas.Friday.events %}
     </div>
 
-    <div class="col-md-8">
-        <div class="row">
-            <div class="col-md-2">
-                <p>Wed</p>
-                {% include day-events.html events=site.data.schedules.Kaunas.Wednesday.events %}
-            </div>
-            <div class="col-md-2">
-                <p>Thu</p>
-                {% include day-events.html events=site.data.schedules.Kaunas.Thursday.events %}
-            </div>
-            <div class="col-md-2">
-                <p>Fri</p>
-                {% include day-events.html events=site.data.schedules.Kaunas.Friday.events %}
-            </div>
-            <div class="col-md-2">
-                <p>Sat</p>
-                {% include day-events.html events=site.data.schedules.Kaunas.Saturday.events %}
-            </div>
-            <div class="col-md-2">
-                <p>Sun</p>
-                {% include day-events.html events=site.data.schedules.Kaunas.Sunday.events %}
-            </div>
-            <div class="col-md-2"> </div> <!-- this column empty -->
-        </div>
+    <div class="col-lg-4 col-md-6">
+        <p>Saturday</p>
+        {% include day-events.html events=site.data.schedules.Kaunas.Saturday.events %}
     </div>
 
+    <div class="clearfix"></div>
+    <div class="col-lg-4 col-md-6">
+        <p>Sunday</p>
+        {% include day-events.html events=site.data.schedules.Kaunas.Sunday.events %}
+    </div>
 </div>

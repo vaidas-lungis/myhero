@@ -1,3 +1,11 @@
-{% for event in include.events %}
-<p>{{event.starts_at}}</p>
-{% endfor %}
+<table class="table">
+    {% for event in include.events %}
+    <tr>
+        <td class="col-xs-5">{{ event.type}}</td>
+        <td class="col-xs-1">-</td>
+        <td class="col-xs-1">{{event.starts_at}}</td>
+        <td class="col-xs-1">@</td>
+        <td class="col-xs-1">{{event.place}}</td>
+    </tr>
+    {% endfor %}
+</table>

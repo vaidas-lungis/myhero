@@ -3,25 +3,10 @@
   {% include head.html %}
   <body>
 
-  <div class="site-wrapper">
-
-    <div class="site-wrapper-inner">
-
-      <div class="cover-container">
-
-        <div class="masthead clearfix">
-          {% include header.html %}
-        </div>
-
-        {{ content }}
-
-        {% include footer.html %}
-      </div>
-
-    </div>
-
+  <div class="container">
+    {{ content }}
   </div>
-  {% include footer-js.html %}
+    {% include footer-js.html %}
 
   </body>
 </html>
