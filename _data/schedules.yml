@@ -1,0 +1,95 @@
+Kaunas:
+   Monday:
+    events:
+      -
+          starts_at: "06:30"
+          type: "Siauciam"
+          coach: "Mindaugas"
+          place: "Loftas"
+      -
+          starts_at: "18:30"
+          type: "Nemokama"
+          coach: "Multi"
+          place: "Hale"
+      -
+          starts_at: "19:00"
+          type: "Siauciam"
+          coach: "Asta"
+          place: "Loftas"
+   Tuesday:
+    events:
+      -
+          starts_at: "18:30"
+          type: "Žemo intensyvumo"
+          coach: "Asta"
+          place: "Loftas"
+      -
+          starts_at: "18:30"
+          type: "Jega"
+          coach: "Ignas"
+          place: "Angaras"
+      -
+          starts_at: "19:30"
+          type: "Jega"
+          coach: "Ignas"
+          place: "Loftas"
+   Wednesday:
+    events:
+      -
+          starts_at: "6:30"
+          type: "Liemuo"
+          coach: "Inga"
+          place: "Loftas"
+      -
+          starts_at: "18:30"
+          type: "Liemuo"
+          coach: "Inga"
+          place: "Angaras"
+      -
+          starts_at: "19:30"
+          type: "Rebefingas"
+          coach: "Asta"
+          place: "Loftas"
+   Thursday:
+    events:
+      -
+          starts_at: "18:30"
+          type: "Žemo intensyvumo"
+          coach: "Asta"
+          place: "Loftas"
+      -
+          starts_at: "18:30"
+          type: "Jega"
+          coach: "Ignas"
+          place: "Angaras"
+      -
+          starts_at: "19:30"
+          type: "Jega"
+          coach: "Asta"
+          place: "Loftas"
+   Friday:
+    events:
+      -
+          starts_at: "06:30"
+          type: "Siauciam"
+          coach: "Asta"
+          place: "Loftas"
+      -
+          starts_at: "18:00"
+          type: "Special event"
+          coach: "Multiple"
+          place: "Loftas"
+   Saturday:
+    events:
+      -
+          starts_at: "09:00"
+          type: "Sirdis"
+          coach: "Ignas"
+          place: "KTU"
+   Sunday:
+    events:
+      -
+          starts_at: "10:00"
+          type: "Mix"
+          coach: "Ausra"
+          place: "Loftas"

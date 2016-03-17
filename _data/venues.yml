@@ -1,0 +1,13 @@
+Kaunas:
+  -
+      name: KTU
+      description: Aprasymas
+      address: Chemijos g. 14
+      coord: 14.00, 33.00
+      photo: www.google.com/photos
+  -
+      name: Jonavos g. sporto sale
+      description: Jonavos g. sale
+      address: Jonavos g. 225
+      coord: 1, 2
+      photo: www.example.com
