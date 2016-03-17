@@ -1,31 +1,13 @@
 <div>
-    <!--Include vardas: {{ site.data.schedules.Kaunas.Monday}}-->
-    <div class="col-md-4">
-        <div class="row">
-            <div class="col-md-4"></div> <!-- this column empty -->
-            <div class="col-md-4"> Mon </div>
-            <div class="col-md-4"> Tue </div>
-        </div>
-    </div>
-
-    <div class="col-md-8">
-        <div class="row">
-            <div class="col-md-2"> Wed </div>
-            <div class="col-md-2"> Thu </div>
-            <div class="col-md-2"> Fri </div>
-            <div class="col-md-2"> Sat </div>
-            <div class="col-md-2"> Sun </div>
-            <div class="col-md-2"></div> <!-- this column empty -->
-        </div>
-    </div>
-
     <div class="col-md-4">
         <div class="row">
             <div class="col-md-4"> </div> <!-- this column empty -->
             <div class="col-md-4">
+                <p>Mon</p>
                 {% include day-events.html events=site.data.schedules.Kaunas.Monday.events %}
             </div>
             <div class="col-md-4">
+                <p>Tue</p>
                 {% include day-events.html events=site.data.schedules.Kaunas.Tuesday.events %}
             </div>
         </div>
@@ -34,18 +16,23 @@
     <div class="col-md-8">
         <div class="row">
             <div class="col-md-2">
+                <p>Wed</p>
                 {% include day-events.html events=site.data.schedules.Kaunas.Wednesday.events %}
             </div>
             <div class="col-md-2">
+                <p>Thu</p>
                 {% include day-events.html events=site.data.schedules.Kaunas.Thursday.events %}
             </div>
             <div class="col-md-2">
+                <p>Fri</p>
                 {% include day-events.html events=site.data.schedules.Kaunas.Friday.events %}
             </div>
             <div class="col-md-2">
+                <p>Sat</p>
                 {% include day-events.html events=site.data.schedules.Kaunas.Saturday.events %}
             </div>
             <div class="col-md-2">
+                <p>Sun</p>
                 {% include day-events.html events=site.data.schedules.Kaunas.Sunday.events %}
             </div>
             <div class="col-md-2"> </div> <!-- this column empty -->
