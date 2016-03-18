@@ -1,5 +1,6 @@
 Kaunas:
-   Monday:
+   -
+    day : Pirmadienis
     events:
       -
           starts_at: "06:30"
@@ -16,7 +17,8 @@ Kaunas:
           type: "Siauciam"
           coach: "Asta"
           place: "Loftas"
-   Tuesday:
+   -
+    day : Antradienis
     events:
       -
           starts_at: "18:30"
@@ -33,7 +35,8 @@ Kaunas:
           type: "Jega"
           coach: "Ignas"
           place: "Loftas"
-   Wednesday:
+   -
+    day : Trečiadienis
     events:
       -
           starts_at: "6:30"
@@ -50,7 +53,8 @@ Kaunas:
           type: "Rebefingas"
           coach: "Asta"
           place: "Loftas"
-   Thursday:
+   -
+    day : Ketvirtadienis
     events:
       -
           starts_at: "18:30"
@@ -67,7 +71,8 @@ Kaunas:
           type: "Jega"
           coach: "Asta"
           place: "Loftas"
-   Friday:
+   -
+    day : Penktadienis
     events:
       -
           starts_at: "06:30"
@@ -79,14 +84,16 @@ Kaunas:
           type: "Special event"
           coach: "Multiple"
           place: "Loftas"
-   Saturday:
+   -
+    day : Šeštadienis
     events:
       -
           starts_at: "09:00"
           type: "Sirdis"
           coach: "Ignas"
           place: "KTU"
-   Sunday:
+   -
+    day : Sekmadienis
     events:
       -
           starts_at: "10:00"
