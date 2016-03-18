@@ -8,8 +8,8 @@ before_install:
 - eval `ssh-agent -s`
 install:
   - ssh-add .deploy_key
-  - git remote add deploy
-  - git push -q deploy gh-pages
+  - git remote -v
+  - git push -q origin gh-pages
 branches:
   only:
     - master
