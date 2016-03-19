@@ -1,15 +1,19 @@
 language: ruby
-sudo: false
-rvm: 2.2.0
+notifications:
+  email: false
 before_install:
 - openssl aes-256-cbc -K $encrypted_93f59ed2d3dd_key -iv $encrypted_93f59ed2d3dd_iv
   -in .deploy_key.enc -out .deploy_key -d
 - chmod 600 .deploy_key
 - eval `ssh-agent -s`
-install:
+install: true
+script:
   - ssh-add .deploy_key
-  - git remote -v
-  - git push -q origin gh-pages
+  - git remote set-url origin git@github.com:vaidas-lungis/myhero.git
+  - git fetch origin
+  - git checkout -b origin/gh-pages
+  - git merge $TRAVIS_COMMIT
+  - git push -fq origin HEAD:gh-pages
 branches:
   only:
     - master
