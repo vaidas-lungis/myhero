@@ -11,6 +11,6 @@ email:
 description: "MyHero.lt tvarkaraščiai"
 baseurl: "/myhero" # the subpath of your site, e.g. /blog
 url: "http://vaidas.info" # the base hostname & protocol for your site
-
+repo: "vaidas-lungis/myhero"
 # Build settings
 markdown: kramdown
