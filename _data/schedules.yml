@@ -4,8 +4,8 @@ Kaunas:
     events:
       -
           starts_at: "06:30"
-          type: "Siauciam"
-          coach: "Mindaugas"
+          type: "Siaučiam"
+          coach: "Ignas"
           place: "Loftas"
       -
           starts_at: "18:30"
@@ -14,7 +14,7 @@ Kaunas:
           place: "Hale"
       -
           starts_at: "19:00"
-          type: "Siauciam"
+          type: "Siaučiam"
           coach: "Asta"
           place: "Loftas"
    -
@@ -23,17 +23,17 @@ Kaunas:
       -
           starts_at: "18:30"
           type: "Žemo intensyvumo"
-          coach: "Asta"
+          coach: "Mindaugas"
           place: "Loftas"
       -
           starts_at: "18:30"
-          type: "Jega"
-          coach: "Ignas"
+          type: "Jėga"
+          coach: "Inga"
           place: "Angaras"
       -
           starts_at: "19:30"
-          type: "Jega"
-          coach: "Ignas"
+          type: "Jėga"
+          coach: "Mindaugas"
           place: "Loftas"
    -
     day : Trečiadienis
@@ -41,12 +41,17 @@ Kaunas:
       -
           starts_at: "6:30"
           type: "Liemuo"
-          coach: "Inga"
+          coach: "Ignas"
           place: "Loftas"
       -
           starts_at: "18:30"
           type: "Liemuo"
-          coach: "Inga"
+          coach: "Mindaugas"
+          place: "Loftas"
+      -
+          starts_at: "18:30"
+          type: "Liemuo"
+          coach: "Sigita"
           place: "Angaras"
       -
           starts_at: "19:30"
@@ -63,8 +68,8 @@ Kaunas:
           place: "Loftas"
       -
           starts_at: "18:30"
-          type: "Jega"
-          coach: "Ignas"
+          type: "Jėga"
+          coach: "Inga"
           place: "Angaras"
       -
           starts_at: "19:30"
@@ -76,27 +81,27 @@ Kaunas:
     events:
       -
           starts_at: "06:30"
-          type: "Siauciam"
-          coach: "Asta"
+          type: "Siaučiam"
+          coach: "Ignas"
           place: "Loftas"
       -
           starts_at: "18:00"
-          type: "Special event"
-          coach: "Multiple"
+          type: "Siaučiam"
+          coach: "Sigita"
           place: "Loftas"
    -
     day : Šeštadienis
     events:
       -
           starts_at: "09:00"
-          type: "Sirdis"
+          type: "Širdis"
           coach: "Ignas"
           place: "KTU"
-   -
-    day : Sekmadienis
-    events:
-      -
-          starts_at: "10:00"
-          type: "Mix"
-          coach: "Ausra"
-          place: "Loftas"
+#   -
+#    day : Sekmadienis
+#    events:
+#      -
+#          starts_at: "10:00"
+#          type: "Mix"
+#          coach: "Ausra"
+#          place: "Loftas"
