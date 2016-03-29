@@ -1,13 +1,36 @@
 Kaunas:
   -
-      name: KTU
-      description: Aprasymas
-      address: Chemijos g. 14
-      coord: 14.00, 33.00
-      photo: www.google.com/photos
+      name: ktu
+      full_name: KTU elektronikos fakulteto aktų salė
+      description:
+      address: Studentų g. 50
+      coord_lat: 54.904047
+      coord_long: 23.957786
   -
-      name: Jonavos g. sporto sale
+      name: ktu_chemijos_krepšinio_salė
+      full_name: KTU chemijos fakulteto krepšinio salė
+      description:
+      address: Radvilėtų pl. 19
+      coord_lat: 54.905680
+      coord_long: 23.952520
+  -
+      name: angaras
+      full_name: KTU teniso angaras
       description: Jonavos g. sale
-      address: Jonavos g. 225
-      coord: 1, 2
-      photo: www.example.com
+      address: Radvilėtų pl. 19
+      coord_lat: 54.904715
+      coord_long: 23.952635
+  -
+      name: loftas
+      full_name: Jonavos g. 254 sporto salė
+      description:
+      address: Jonavos g. 254
+      coord_lat: 54.926332
+      coord_long: 23.915703
+  -
+      name: halė
+      full_name: Kauno sporto halė
+      description:
+      address: Perkūno al. 5
+      coord_lat: 54.896199
+      coord_long: 23.936050
