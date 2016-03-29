@@ -5,7 +5,7 @@
         <td class="col-xs-1">-</td>
         <td class="col-xs-1">{{event.starts_at}}</td>
         <td class="col-xs-1">@</td>
-        <td class="col-xs-1">{{event.place}}</td>
+        <td class="col-xs-1"><a href="#{{event.place | replace:' ', '_' | downcase }}" class="btn btn-venue btn-default" data-toggle="modal">{{event.place}}</a></td>
     </tr>
     {% endfor %}
 </table>
