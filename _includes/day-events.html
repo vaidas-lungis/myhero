@@ -1,11 +1,18 @@
 <table class="table">
     {% for event in include.events %}
     <tr>
-        <td class="col-xs-5">{{ event.type}}</td>
-        <td class="col-xs-1">-</td>
-        <td class="col-xs-1">{{event.starts_at}}</td>
-        <td class="col-xs-1">@</td>
-        <td class="col-xs-1"><a href="#{{event.place | replace:' ', '_' | downcase }}" class="btn btn-venue btn-default" data-toggle="modal">{{event.place}}</a></td>
+        <td class="col-xs-5 vert-align">{{ event.type}}</td>
+        <td class="col-xs-1 vert-align">-</td>
+        <td class="col-xs-1 vert-align">{{event.starts_at}}</td>
+        <td class="col-xs-1 vert-align">@</td>
+        <td class="col-xs-1 vert-align">{{event.place}}</td>
+        <td class="col-xs-1 vert-align">
+            <a href="#{{event.place | replace:' ', '_' | downcase }}"
+               class="btn btn-venue btn-default"
+               data-toggle="modal">
+                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+            </a>
+        </td>
     </tr>
     {% endfor %}
 </table>
