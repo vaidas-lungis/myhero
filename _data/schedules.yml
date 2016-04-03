@@ -1,25 +1,30 @@
 Kaunas:
-#   -
-#    day : Pirmadienis
-#    events:
-#      -
-#          starts_at: "06:30"
-#          type: "Siaučiam"
-#          coach: "Ignas"
-#          place: "Loftas"
-#      -
-#          starts_at: "18:30"
-#          type: "Nemokama"
-#          coach: "Multi"
-#          place: "Hale"
-#      -
-#          starts_at: "19:00"
-#          type: "Siaučiam"
-#          coach: "Asta"
-#          place: "Loftas"
+   -
+    day : Pirmadienis
+    events:
+      -
+          starts_at: "06:30"
+          type: "Siaučiam"
+          coach: "Ignas"
+          place: "Loftas"
+      -
+          starts_at: "18:30"
+          type: "Nemokama"
+          coach: "Multi"
+          place: "Hale"
+      -
+          starts_at: "19:00"
+          type: "Siaučiam"
+          coach: "Asta"
+          place: "Loftas"
    -
     day : Antradienis
     events:
+      -
+          starts_at: "12:00"
+          type: "Jėga"
+          coach: "Gediminas"
+          place: "Loftas"
       -
           starts_at: "18:30"
           type: "Žemo intensyvumo"
@@ -28,7 +33,7 @@ Kaunas:
       -
           starts_at: "18:30"
           type: "Jėga"
-          coach: "Inga"
+          coach: "Asta"
           place: "Angaras"
       -
           starts_at: "19:30"
@@ -51,16 +56,21 @@ Kaunas:
       -
           starts_at: "18:30"
           type: "Liemuo"
-          coach: "Sigita"
+          coach: "Inga"
           place: "Angaras"
       -
           starts_at: "19:30"
-          type: "Intro"
+          type: "rebefingas"
           coach: "Asta"
           place: "Loftas"
    -
     day : Ketvirtadienis
     events:
+      -
+          starts_at: "12:00"
+          type: "Jėga"
+          coach: "Asta"
+          place: "Loftas"
       -
           starts_at: "18:30"
           type: "Žemo intensyvumo"
@@ -69,11 +79,11 @@ Kaunas:
       -
           starts_at: "18:30"
           type: "Jėga"
-          coach: "Sigita"
+          coach: "Inga"
           place: "Angaras"
       -
           starts_at: "19:30"
-          type: "Jega"
+          type: "Jėga"
           coach: "Asta"
           place: "Loftas"
    -
@@ -90,10 +100,10 @@ Kaunas:
           coach: "Asta"
           place: "Loftas"
       -
-          starts_at: "18:00"
+          starts_at: "18:15"
           type: "Siaučiam"
-          coach: "Sigita"
-          place: "KTU"
+          coach: "Ignas"
+          place: "KTU chemijos krepšinio salė"
       -
           starts_at: "19:00"
           type: "rebefingas"
@@ -113,5 +123,5 @@ Kaunas:
       -
           starts_at: "10:00"
           type: "Mix"
-          coach: "Aušra"
+          coach: "Mindaugas"
           place: "Loftas"
