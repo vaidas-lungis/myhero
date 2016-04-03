@@ -5,17 +5,14 @@ Kaunas:
       -
           starts_at: "06:30"
           type: "Siaučiam"
-          coach: "Ignas"
           place: "Loftas"
       -
           starts_at: "18:30"
           type: "Nemokama"
-          coach: "Multi"
           place: "Hale"
       -
           starts_at: "19:00"
           type: "Siaučiam"
-          coach: "Asta"
           place: "Loftas"
    -
     day : Antradienis
@@ -23,22 +20,18 @@ Kaunas:
       -
           starts_at: "12:00"
           type: "Jėga"
-          coach: "Gediminas"
           place: "Loftas"
       -
           starts_at: "18:30"
           type: "Žemo intensyvumo"
-          coach: "Mindaugas"
           place: "Loftas"
       -
           starts_at: "18:30"
           type: "Jėga"
-          coach: "Asta"
           place: "Angaras"
       -
           starts_at: "19:30"
           type: "Jėga"
-          coach: "Mindaugas"
           place: "Loftas"
    -
     day : Trečiadienis
@@ -46,22 +39,18 @@ Kaunas:
       -
           starts_at: "6:30"
           type: "Liemuo"
-          coach: "Ignas"
           place: "Loftas"
       -
           starts_at: "18:30"
           type: "Liemuo"
-          coach: "Mindaugas"
           place: "Loftas"
       -
           starts_at: "18:30"
           type: "Liemuo"
-          coach: "Inga"
           place: "Angaras"
       -
           starts_at: "19:30"
           type: "rebefingas"
-          coach: "Asta"
           place: "Loftas"
    -
     day : Ketvirtadienis
@@ -69,22 +58,18 @@ Kaunas:
       -
           starts_at: "12:00"
           type: "Jėga"
-          coach: "Asta"
           place: "Loftas"
       -
           starts_at: "18:30"
           type: "Žemo intensyvumo"
-          coach: "Asta"
           place: "Loftas"
       -
           starts_at: "18:30"
           type: "Jėga"
-          coach: "Inga"
           place: "Angaras"
       -
           starts_at: "19:30"
           type: "Jėga"
-          coach: "Asta"
           place: "Loftas"
    -
     day : Penktadienis
@@ -92,22 +77,18 @@ Kaunas:
       -
           starts_at: "06:30"
           type: "Siaučiam"
-          coach: "Ignas"
           place: "Loftas"
       -
           starts_at: "18:00"
           type: "Žemo intensyvumo"
-          coach: "Asta"
           place: "Loftas"
       -
           starts_at: "18:15"
           type: "Siaučiam"
-          coach: "Ignas"
           place: "KTU chemijos krepšinio salė"
       -
           starts_at: "19:00"
           type: "rebefingas"
-          coach: "Asta"
           place: "Loftas"
    -
     day : Šeštadienis
@@ -115,7 +96,7 @@ Kaunas:
       -
           starts_at: "09:00"
           type: "Širdis"
-          coach: "Ignas"
+#          coach: "Ignas"
           place: "KTU chemijos krepšinio salė"
    -
     day : Sekmadienis
@@ -123,5 +104,5 @@ Kaunas:
       -
           starts_at: "10:00"
           type: "Mix"
-          coach: "Mindaugas"
+#          coach: "Mindaugas"
           place: "Loftas"
