@@ -80,12 +80,12 @@ Kaunas:
           place: "Loftas"
       -
           starts_at: "18:00"
-          type: "Žemo intensyvumo"
+          type: "Siaučiam"
           place: "Loftas"
       -
-          starts_at: "18:15"
+          starts_at: "18:00"
           type: "Siaučiam"
-          place: "KTU chemijos krepšinio salė"
+          place: "Angaras"
       -
           starts_at: "19:00"
           type: "rebefingas"
@@ -98,6 +98,10 @@ Kaunas:
           type: "Širdis"
 #          coach: "Ignas"
           place: "KTU chemijos krepšinio salė"
+      -
+          starts_at: "12:00"
+          type: "Fraktalinis piešimas"
+          place: "Loftas"
    -
     day : Sekmadienis
     events:
@@ -105,4 +109,8 @@ Kaunas:
           starts_at: "10:00"
           type: "Mix"
 #          coach: "Mindaugas"
+          place: "Loftas"
+      -
+          starts_at: "14:00"
+          type: "Kūryba judesyje"
           place: "Loftas"
