@@ -1,12 +1,12 @@
 <table class="table table-hover">
     {% for event in include.events %}
     <tr>
-        <td class="col-xs-5 vert-align">{{ event.type}}</td>
-        <td class="col-xs-1 vert-align">-</td>
-        <td class="col-xs-1 vert-align">{{event.starts_at}}</td>
-        <td class="col-xs-1 vert-align">@</td>
-        <td class="col-xs-1 vert-align">{{event.place}}</td>
-        <td class="col-xs-1 vert-align">
+        <td class="vert-align">{{ event.type}}</td>
+        <td class="vert-align hidden-xs">-</td>
+        <td class="vert-align">{{event.starts_at}}</td>
+        <td class="vert-align hidden-xs">@</td>
+        <td class="vert-align">{{event.place}}</td>
+        <td class="vert-align">
             <a href="#{{event.place | replace:' ', '_' | downcase }}"
                class="btn btn-default"
                data-toggle="modal">
