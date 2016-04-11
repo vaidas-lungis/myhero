@@ -1,9 +1,9 @@
 <table class="table table-hover">
     {% for event in include.events %}
     <tr>
-        <td class="vert-align">{{ event.type}}</td>
-        <td class="vert-align hidden-xs">-</td>
         <td class="vert-align">{{event.starts_at}}</td>
+        <td class="vert-align hidden-xs">-</td>
+        <td class="vert-align text-center">{{ event.type}}</td>
         <td class="vert-align hidden-xs">@</td>
         <td class="vert-align">{{event.place}}</td>
         <td class="vert-align">
