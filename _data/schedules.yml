@@ -37,7 +37,7 @@ Kaunas:
     day : Trečiadienis
     events:
       -
-          starts_at: "6:30"
+          starts_at: "06:30"
           type: "Liemuo"
           place: "Loftas"
       -
