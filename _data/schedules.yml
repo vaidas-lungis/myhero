@@ -18,21 +18,17 @@ Kaunas:
     day : Antradienis
     events:
       -
-          starts_at: "12:00"
+          starts_at: "11:30"
           type: "Jėga"
           place: "Loftas"
       -
           starts_at: "18:30"
-          type: "Žemo intensyvumo"
+          type: "Mitybos seansas"
           place: "Loftas"
       -
           starts_at: "18:30"
           type: "Jėga"
           place: "Angaras"
-      -
-          starts_at: "19:30"
-          type: "Jėga"
-          place: "Loftas"
    -
     day : Trečiadienis
     events:
@@ -48,15 +44,11 @@ Kaunas:
           starts_at: "18:30"
           type: "Liemuo"
           place: "Angaras"
-      -
-          starts_at: "19:30"
-          type: "rebefingas"
-          place: "Loftas"
    -
     day : Ketvirtadienis
     events:
       -
-          starts_at: "12:00"
+          starts_at: "11:30"
           type: "Jėga"
           place: "Loftas"
       -
@@ -86,31 +78,17 @@ Kaunas:
           starts_at: "18:00"
           type: "Siaučiam"
           place: "Angaras"
-      -
-          starts_at: "19:00"
-          type: "rebefingas"
-          place: "Loftas"
    -
     day : Šeštadienis
     events:
       -
           starts_at: "09:00"
           type: "Širdis"
-#          coach: "Ignas"
           place: "Krepšinio salė"
-      -
-          starts_at: "12:00"
-          type: "Fraktalinis piešimas"
-          place: "Loftas"
    -
     day : Sekmadienis
     events:
       -
           starts_at: "10:00"
           type: "Mix"
-#          coach: "Mindaugas"
-          place: "Loftas"
-      -
-          starts_at: "14:00"
-          type: "Kūryba judesyje"
           place: "Loftas"
