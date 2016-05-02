@@ -9,18 +9,26 @@ Kaunas:
       -
           starts_at: "18:00"
           type: "Nemokama"
+          place: "Loftas"
+      -
+          starts_at: "18:30"
+          type: "Nemokama"
           place: "Halė"
    -
     day : Antradienis
     events:
       -
-          starts_at: "18:00"
+          starts_at: "18:30"
           type: "Žemo itensyvumo"
           place: "Loftas"
       -
           starts_at: "18:30"
           type: "Jėga"
           place: "Angaras"
+      -
+          starts_at: "19:30"
+          type: "Jėga"
+          place: "Loftas"
    -
     day : Trečiadienis
     events:
@@ -29,7 +37,7 @@ Kaunas:
           type: "Liemuo"
           place: "Loftas"
       -
-          starts_at: "18:00"
+          starts_at: "18:30"
           type: "Liemuo"
           place: "Loftas"
       -
@@ -40,7 +48,7 @@ Kaunas:
     day : Ketvirtadienis
     events:
       -
-          starts_at: "18:00"
+          starts_at: "18:30"
           type: "Žemo intensyvumo"
           place: "Loftas"
       -
@@ -48,7 +56,7 @@ Kaunas:
           type: "Jėga"
           place: "Angaras"
       -
-          starts_at: "19:00"
+          starts_at: "19:30"
           type: "Jėga"
           place: "Loftas"
    -
@@ -59,16 +67,16 @@ Kaunas:
           type: "Siaučiam"
           place: "Loftas"
       -
-          starts_at: "14:00"
-          type: "Siaučiam"
-          place: "Angaras"
-      -
           starts_at: "18:00"
           type: "Siaučiam"
           place: "Loftas"
    -
     day : Šeštadienis
     events:
+      -
+          starts_at: "09:00"
+          type: "Širdis"
+          place: "KTU"
 
    -
     day : Sekmadienis
